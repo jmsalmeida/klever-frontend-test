@@ -1,0 +1,47 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray-500: #646464;
+  --blue-900: #13152A;
+  --purple-500: #AA33B5;
+  --red-500: #921500;
+
+  --default-font: 'Montserrat', sans-serif;
+  --font-medium: 500;
+  --font-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  color: var(--white);
+  background: var(--blue-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+  font-size: 1rem;
+  font-family: var(--default-font);
+  font-weight: var(--font-medium);
+}
+
+input {
+  color: var(--black);
+  font-weight: var(--font-bold);
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  font-weight: var(--font-bold);
+}
