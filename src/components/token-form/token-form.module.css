@@ -1,0 +1,46 @@
+.formContainer {
+  width: 560px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+
+}
+
+.formHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.formHeader h3 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.formBody {
+  margin-top: 35px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+.inputContainer label {
+  padding: 10px 0;
+  font-size: 1.3rem;
+  font-weight: var(--font-bold);
+}
+
+.inputContainer .errorMessage {
+  padding-top: 8px;
+  font-size: 0.8rem;
+  font-weight: var(--font-bold);
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px
+}
