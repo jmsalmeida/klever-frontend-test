@@ -1,0 +1,29 @@
+.tokenItem {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+.tokenName {
+  display: flex;
+  flex: 1.4;
+}
+
+.tokenBalance {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  padding-right: 55px;
+}
+
+.tokenItem p {
+  padding-left: 25px;
+  font-size: 2.5rem;
+  font-weight: var(--font-bold);
+}
+
+.tokenLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,26 @@
+.actionButton {
+  min-width: 140px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 0.8rem;
+
+  color: var(--white);
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--gray-500);
+  font-weight: var(--font-bold);
+  letter-spacing: 1.8px;
+
+  border: none  ;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primaryButton {
+  background-color: var(--purple-500);
+}
+
+.dangerButton {
+  background-color: var(--red-500);
+}
